@@ -1,0 +1,417 @@
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 0 auto;
+    background-color: aliceblue;
+    max-width: 1200px;
+  }
+  #title{
+    font-size: 42px;
+    font-weight: bolder;
+    padding-left: 10px;
+    height: 80px;
+  }
+  .body_title{
+    font: bold 20px;
+    padding: 0 0 10px 5px;
+  }
+  header,section{
+    border-radius: 10px;
+    margin: 0 5px;
+  }
+
+  header{
+    height: 200px;
+  }
+
+  .body_title{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  #header_div {
+    width: 100%;
+    height: 100px;
+    position: relative;
+  }
+
+  #weather{
+    font-size: 60px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  #temperature{
+    font-size: 60px;
+    position: absolute;
+    top: 5px;
+    left: 170px;
+    display: flex;
+    align-items: center;
+  }
+
+  #humidity{
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    display: flex;
+    align-items: center;
+  }
+  #rainfall{
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 470px;
+    display: flex;
+    align-items: center;
+  }
+  #uv{
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 600px;
+    display: flex;
+    align-items: center;
+  }
+
+  #header_f{
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+  
+  #warning{
+    position: absolute;
+    bottom: 0;
+  }
+
+  #warning_h{
+    width: 100px;
+    background-color: red;
+  }
+
+  #warning_message{
+    background-color: red;
+    width: 400px;
+  }
+
+  #time{
+    position:absolute;
+    bottom: 1px;
+    right: 5px;
+  }
+
+  .small_img{
+    height: 60px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+  }
+  span{
+    font-size: 22px;
+  }
+  #aqhi{
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  img{
+    height: 90px;
+    width: auto;
+  }
+
+  #myData_block{
+    width: 100%;
+    margin: 10px;
+    height: 300px;
+  }
+
+  #myData_left{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(190, 238, 190);
+    border-radius: 10px;
+    float: left;
+  }
+
+  #myData_right{
+    margin-left: 625px;
+    margin-right: 10px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  #my_location{
+    width: 360px;
+    padding-left: 20px;
+    float: left;
+  }
+
+  #loc_temp{
+    margin-left: 370px;
+  }
+
+  #loc_rain{
+    width: 300px;
+    padding-left: 20px;
+    float: left;
+    display: flex;
+  }
+
+  #loc_aqhi{
+    margin-left: 310px;
+  }
+
+  .locRain{
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .right_h2{
+    font-size: 22px;
+  }
+
+  .right_h2,#right_tem,#right_sel{
+    margin-left: 10px;
+  }
+
+  .locTem{
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+  #nineDay_block{
+    background-color: lightgrey;
+    white-space: nowrap;
+    overflow-x: scroll;
+    width:100%;
+    margin-bottom: 50px;
+  }
+  .forecast{
+    display: inline-block;
+    width: 110px;
+    margin-left: 20px;
+  }
+  .forecast img{
+    width:80px;
+    height:auto;
+    margin: auto;
+  }
+  .forecast1{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  body {
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+  #title{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 10px;
+    height: 80px;
+  }
+
+  header,section{
+    border-radius: 10px;
+    margin: 12px;
+  }
+
+  header{
+    background-size: cover;
+  }
+
+  .body_title{
+    padding: 0 0 10px 5px;
+    /* width: 100%; */
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  #header_div {
+    width: 100%;
+    height: 350px;
+    position: relative;
+  }
+
+  #weather{
+    font-size: 60px;
+    position: absolute;
+    top: 15px;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+  }
+
+  #temperature{
+    font-size: 60px;
+    position: absolute;
+    top: 5px;
+    left: 50vw;
+    display: flex;
+    align-items: center;
+  }
+
+  #humidity{
+    font-size: 40px;
+    position: absolute;
+    top: 120px;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+  }
+  #rainfall{
+    font-size: 40px;
+    position: absolute;
+    top: 120px;
+    left: 50vw;
+    display: flex;
+    align-items: center;
+  }
+  #uv{
+    font-size: 40px;
+    position: absolute;
+    top: 240px;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+  }
+
+  #header_f{
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+  
+  #warning{
+    position: absolute;
+    bottom: 0;
+  }
+
+  #warning_h{
+    width: 100px;
+    background-color: red;
+  }
+
+  #warning_message{
+    background-color: red;
+    width: 400px;
+  }
+
+  #time{
+    position:absolute;
+    bottom: 1px;
+    right: 5px;
+  }
+
+  .small_img{
+    height: 60px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+  }
+  span{
+    font-size: 20px;
+  }
+
+  #aqhi{
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  img{
+    height: 90px;
+    width: auto;
+  }
+
+
+  #myData_left{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(190, 238, 190);
+    border-radius: 10px;
+    position: relative;
+  }
+
+  #myData_right{
+    margin-top: 10px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  #my_location{
+    padding-left: 20px;
+  }
+
+  #loc_temp{
+    position: absolute;
+    top: 125px;
+    left: 10vw;
+    display: flex;
+  }
+
+  #loc_rain{
+    position: absolute;
+    top: 125px;
+    left: 50vw;
+    display: flex;
+  }
+
+  #loc_aqhi{
+    position: absolute;
+    top: 265px;
+    left: 10vw;
+    display: flex;
+  }
+
+  .locRain{
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 80px;
+  }
+
+  .right_h2{
+    font-size: 20px;
+  }
+
+  .right_h2,#right_tem,#right_sel{
+    margin-left: 20px;
+  }
+
+  .locTem{
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+  #nineDay_block{
+    background-color: lightgrey;
+    white-space: nowrap;
+    overflow-x: scroll;
+    width:100%;
+  }
+  .forecast{
+    display: inline-block;
+    width: 110px;
+    margin-left: 20px;
+  }
+  .forecast img{
+    width:80px;
+    height:auto;
+    margin: auto;
+  }
+  .forecast1{
+    font-size: 15px;
+  }
+}
+
